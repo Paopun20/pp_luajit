@@ -4,7 +4,7 @@ import llua.State;
 
 class Test {
 	static function main() {
-		trace("=== LuaJIT Binding Tests ===\n");
+		trace("LuaJIT Binding Tests\n");
 
 		var vm:State = LuaL.newstate();
 		LuaL.openlibs(vm);
